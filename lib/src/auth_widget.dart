@@ -16,7 +16,7 @@ class AuthWidget extends StatefulWidget {
   State<AuthWidget> createState() => _AuthWidgetState();
 }
 
-class _AuthWidget extends State<AuthWidget> {
+class _AuthWidgetState extends State<AuthWidget> {
   @override
   void initState() {
     super.initState();
@@ -24,7 +24,7 @@ class _AuthWidget extends State<AuthWidget> {
   }
 
   @override
-  Widget buid(BuildContext context) {
+  Widget build(BuildContext context) {
     return widget.child;
   }
 

@@ -15,7 +15,7 @@ class MapWidget extends StatefulWidget {
   State<MapWidget> createState() => _MapWidgetState();
 }
 
-class _MapWidget extends State<MapWidget> {
+class _MapWidgetState extends State<MapWidget> {
   MapController? _controller;
 
   @override
